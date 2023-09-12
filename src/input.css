@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --merah: #cc021c;
+  --oren: #faa401;
+  --kuning: #ffff00;
+  --hijau: #01fa01;
+}
