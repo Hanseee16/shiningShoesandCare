@@ -8,3 +8,39 @@
   --kuning: #ffff00;
   --hijau: #01fa01;
 }
+
+/* About */
+.btn-about {
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.123);
+}
+
+.btn-about::before,
+.btn-about::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: #cc021c;
+  transition: 1s ease;
+}
+
+.btn-about::before {
+  top: -1em;
+  left: -1em;
+}
+
+.btn-about::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.btn-about:hover::before,
+.btn-about:hover::after {
+  height: 410px;
+  width: 410px;
+}
