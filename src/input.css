@@ -9,6 +9,19 @@
   --hijau: #01fa01;
 }
 
+.test {
+  color: #000000ea;
+}
+
+/* Navbar */
+nav a.active {
+  color: #ffff00;
+}
+
+.navbar {
+  transition: all 500ms ease-in-out;
+}
+
 /* About */
 .btn-about {
   transition: 0.5s;
