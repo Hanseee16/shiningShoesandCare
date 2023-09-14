@@ -945,6 +945,11 @@ video {
   padding-bottom: 1.75rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1371,12 +1376,12 @@ nav a.active {
     display: none;
   }
 
-  .md\:w-\[40\%\] {
-    width: 40%;
+  .md\:w-\[38\%\] {
+    width: 38%;
   }
 
-  .md\:w-\[43\%\] {
-    width: 43%;
+  .md\:w-\[40\%\] {
+    width: 40%;
   }
 
   .md\:w-\[45\%\] {
@@ -1389,10 +1394,6 @@ nav a.active {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-\[38\%\] {
-    width: 38%;
   }
 
   .md\:flex-row {
