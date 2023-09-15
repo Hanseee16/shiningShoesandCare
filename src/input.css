@@ -60,29 +60,10 @@ nav a.active {
 
 /* back to top */
 #back-to-top-btn {
-  display: none;
-  position: fixed;
-  bottom: 35px;
-  right: 10px;
-  font-size: 26px;
-  width: 40px;
-  height: 40px;
-  background-color: var(--merah);
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.11);
-  z-index: 50;
-}
-#back-to-top-btn:hover,
-#back-to-top-btn:focus {
-  background-color: #e6001f;
-
-  color: #fff;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.37);
 }
 
 .btnEntrance {
