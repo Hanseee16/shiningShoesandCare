@@ -10,7 +10,7 @@ module.exports = {
         merah: "#cc021c",
         oren: "#faa401",
         kuning: "#ffff00",
-        hijau: "#01fa01",
+        hijau: "#18cf00",
       },
     },
   },
