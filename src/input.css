@@ -75,11 +75,13 @@ nav a.active {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.219);
   z-index: 50;
 }
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
   background-color: #e6001f;
+
   color: #fff;
 }
 
