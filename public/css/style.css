@@ -637,12 +637,12 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mr-3 {
@@ -663,10 +663,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 
 .block {
@@ -898,11 +894,6 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -958,11 +949,6 @@ video {
   padding-bottom: 5px;
 }
 
-.py-\[4px\] {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1014,6 +1000,10 @@ video {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -1028,10 +1018,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .uppercase {
@@ -1157,11 +1143,11 @@ nav a.active {
 #back-to-top-btn {
   display: none;
   position: fixed;
-  bottom: 10px;
+  bottom: 35px;
   right: 10px;
   font-size: 26px;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   background-color: var(--merah);
   cursor: pointer;
   outline: none;
@@ -1170,7 +1156,7 @@ nav a.active {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
-  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.219);
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.11);
   z-index: 50;
 }
 
@@ -1434,11 +1420,6 @@ nav a.active {
   .md\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
-  }
-
-  .md\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .md\:py-2 {
